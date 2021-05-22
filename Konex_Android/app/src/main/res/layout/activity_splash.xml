@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_icon"
+    tools:context=".activity.SplashActivity">
+<!--<com.google.android.material.textview.MaterialTextView-->
+<!--    android:id="@+id/airbus"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_centerInParent="true"-->
+<!--    android:textSize="50sp"-->
+<!--    android:text="AIRBUS"-->
+<!--    android:textColor="@color/white"-->
+<!--    android:textStyle="bold|normal" />-->
+<!--    <com.google.android.material.textview.MaterialTextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="50sp"-->
+<!--        android:text="@string/app_name"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold|normal"-->
+<!--        android:layout_below="@+id/airbus"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+</RelativeLayout>

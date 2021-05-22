@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AdminActivity">
+    <RelativeLayout
+        android:padding="12dp"
+        android:id="@+id/admin_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/splash_bg">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Authentication"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@id/admin_back"
+            android:layout_toEndOf="@id/admin_back" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/admin_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_arrow"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="User Id"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="20dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_box"
+        android:padding="5dp"
+        android:hint="enter user id"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="20dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_box"
+        android:padding="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:hint="enter password"
+        android:inputType="numberPassword"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sign_in_btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign In"/>
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

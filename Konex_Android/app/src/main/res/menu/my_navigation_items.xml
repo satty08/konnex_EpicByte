@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/nav_is_home"
+        tools:ignore="MenuTitle" />
+
+<!--    <item-->
+<!--        android:id="@+id/menu_notification"-->
+<!--        android:icon="@drawable/nav_is_notification"-->
+<!--        tools:ignore="MenuTitle" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_bug"-->
+<!--        android:icon="@drawable/nav_is_bug"-->
+<!--        tools:ignore="MenuTitle" />-->
+    <item
+        android:id="@+id/menu_chat_bot"
+        android:icon="@drawable/nav_is_chat_bot"
+        tools:ignore="MenuTitle" />
+</menu>

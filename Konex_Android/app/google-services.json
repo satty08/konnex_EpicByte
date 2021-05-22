@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12007182061",
+    "project_id": "konex-deba1",
+    "storage_bucket": "konex-deba1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12007182061:android:8b3d494613db974f8286e4",
+        "android_client_info": {
+          "package_name": "com.konex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12007182061-lveoo2v4bloaq1q98uvmrb8cvc9j12ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoMXAWaepQj7rqDEZn57vQvN4w6yuPB4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12007182061-lveoo2v4bloaq1q98uvmrb8cvc9j12ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
